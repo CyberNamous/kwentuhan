@@ -1,0 +1,871 @@
+{
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "SCN_001",
+      "category": "friendship",
+      "intent": "mixed",
+      "language": "tl-en",
+      "sample_user_message": "Parang ang distant na ng best friend ko lately, di na siya nagrereply agad.",
+      "context": "A long-time friend has become less responsive. The user feels hurt but is unsure whether anything is actually wrong.",
+      "possible_interpretations": [
+        "Friend is busy, stressed, or dealing with something private",
+        "Friend's priorities or circle have shifted",
+        "There may be an unspoken tension or misunderstanding"
+      ],
+      "recommended_approach": [
+        "Acknowledge the hurt before analyzing",
+        "Ask what specifically changed",
+        "Suggest a low-pressure check-in instead of a confrontation"
+      ],
+      "avoid": [
+        "Concluding that the friend no longer cares",
+        "Recommending a dramatic confrontation"
+      ],
+      "follow_up_questions": [
+        "May napansin ka bang specific na nagbago sa kanya?",
+        "Kailan mo huling nakausap siya nang maayos?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_002",
+      "category": "friendship",
+      "intent": "advice",
+      "language": "en",
+      "sample_user_message": "I'm always the one who plans our hangouts. Should I just stop and see if she ever reaches out?",
+      "context": "The user feels the effort in a friendship is lopsided and considers testing it by stepping back.",
+      "possible_interpretations": [
+        "Friend is comfortable letting others plan, without bad intent",
+        "Friend may be overwhelmed or low on energy",
+        "A real imbalance in care or effort"
+      ],
+      "recommended_approach": [
+        "Validate the tiredness",
+        "Mention that stepping back can reveal a pattern but can also leave both people confused if unspoken",
+        "Suggest telling her once, lightly, what the user would like"
+      ],
+      "avoid": [
+        "Encouraging silent punishment",
+        "Labeling the friend as selfish"
+      ],
+      "follow_up_questions": [
+        "Have you ever told her you'd like her to plan something sometime?",
+        "How does she usually respond when you invite her?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_003",
+      "category": "friendship",
+      "intent": "mixed",
+      "language": "fil",
+      "sample_user_message": "Nakita ko sa story nila na nagkita-kita sila nang hindi ako sinasama. Ang sakit lang.",
+      "context": "The user saw social media posts of friends gathering without them and feels excluded.",
+      "possible_interpretations": [
+        "Spontaneous plans where inviting everyone did not occur to them",
+        "A smaller group that formed for a specific reason",
+        "Possible deliberate exclusion, which cannot be assumed"
+      ],
+      "recommended_approach": [
+        "Validate that it stings",
+        "Separate what is known from what is assumed",
+        "Offer an easy way to ask about future plans without blaming"
+      ],
+      "avoid": [
+        "Saying 'wala lang yan'",
+        "Agreeing that the friends are fake or mean"
+      ],
+      "follow_up_questions": [
+        "Ngayon lang ba ito nangyari o madalas na?",
+        "Close ka ba talaga sa mga kasama doon?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_004",
+      "category": "friendship",
+      "intent": "advice",
+      "language": "tl-en",
+      "sample_user_message": "Hiniraman ako ng pera ng friend ko last year pa, hindi pa rin nagbabayad. Nahihiya akong singilin.",
+      "context": "A friend has not repaid a loan and the user feels guilty or embarrassed to ask.",
+      "possible_interpretations": [
+        "Friend is struggling financially and avoiding the topic",
+        "Friend forgot or does not see it as urgent",
+        "Pattern of taking advantage of the friendship"
+      ],
+      "recommended_approach": [
+        "Normalize that asking for what is owed is reasonable",
+        "Offer a calm, specific, friendly way to bring it up",
+        "Suggest the user decide in advance what outcome they can accept"
+      ],
+      "avoid": [
+        "Encouraging public shaming",
+        "Writing a hostile message"
+      ],
+      "follow_up_questions": [
+        "Magkano ba yung hiniram, and kailangan mo ba siya ngayon?",
+        "Nag-usap na ba kayo tungkol dito?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_005",
+      "category": "friendship",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "Two of my close friends are fighting and both keep venting to me. I feel stuck in the middle.",
+      "context": "The user is being used as a go-between in a friend conflict.",
+      "possible_interpretations": [
+        "Both friends trust the user and need an outlet",
+        "The user is being pulled into taking sides",
+        "The user's own limits are being stretched"
+      ],
+      "recommended_approach": [
+        "Acknowledge how draining it is",
+        "Explore what role the user wants to play",
+        "Suggest staying neutral and encouraging the two to talk directly"
+      ],
+      "avoid": [
+        "Telling the user who is right",
+        "Encouraging relaying messages or gossip"
+      ],
+      "follow_up_questions": [
+        "What would you like your role to be in this?",
+        "Have either of them asked you to pick a side?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_006",
+      "category": "dating",
+      "intent": "listen",
+      "language": "en",
+      "sample_user_message": "We went on three great dates and then he just stopped replying. I feel so stupid.",
+      "context": "The user was ghosted after promising early dating and feels embarrassed and rejected.",
+      "possible_interpretations": [
+        "The other person lost interest or avoided an uncomfortable conversation",
+        "Something happened in their life unrelated to the user",
+        "The user may be blaming themselves unfairly"
+      ],
+      "recommended_approach": [
+        "Reflect the hurt and the confusion",
+        "Gently counter the self-blame without guessing the other's reasons",
+        "Ask if they want to talk it through or vent first"
+      ],
+      "avoid": [
+        "Explaining why he did it as fact",
+        "Jumping to advice such as 'move on'"
+      ],
+      "follow_up_questions": [
+        "How are you feeling about it today?",
+        "Do you want to talk about what happened, or just get it off your chest?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_007",
+      "category": "dating",
+      "intent": "mixed",
+      "language": "tl-en",
+      "sample_user_message": "Tatlong buwan na kaming MU pero hindi namin pinag-uusapan kung ano talaga kami. Should I ask?",
+      "context": "The user is in a situationship and wonders whether to ask for clarity.",
+      "possible_interpretations": [
+        "Both are comfortable but avoiding labels",
+        "The other person is unsure or not looking for commitment",
+        "The user may want more than the other person does"
+      ],
+      "recommended_approach": [
+        "Affirm that wanting clarity is reasonable",
+        "Help the user think about what they want and what they would do with either answer",
+        "Suggest a calm, non-pressured conversation"
+      ],
+      "avoid": [
+        "Telling them to give an ultimatum",
+        "Advising games to test the other person"
+      ],
+      "follow_up_questions": [
+        "Ano ba talaga ang gusto mo mangyari sa inyo?",
+        "Paano kung sabihin niyang hindi pa siya ready, okay ba sa'yo?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_008",
+      "category": "dating",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "I have a first date tomorrow and I'm so nervous I might cancel.",
+      "context": "The user is anxious about a first date and tempted to avoid it.",
+      "possible_interpretations": [
+        "Normal nervous excitement",
+        "Fear of rejection or being judged",
+        "Past dating experiences affecting confidence"
+      ],
+      "recommended_approach": [
+        "Normalize the nerves",
+        "Ask what feels scariest",
+        "Offer small practical ideas such as a short public meetup and an exit plan"
+      ],
+      "avoid": [
+        "Promising it will go well",
+        "Pressuring them to go if they do not want to"
+      ],
+      "follow_up_questions": [
+        "Ano yung pinaka-kinakabahan mo, the conversation or how you'll come across?",
+        "Do you actually want to go, deep down?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_009",
+      "category": "dating",
+      "intent": "advice",
+      "language": "fil",
+      "sample_user_message": "Pagod na ako sa dating apps. Puro walang kwentang usapan lang. Susuko na ba ako?",
+      "context": "The user is fatigued by dating apps and wonders whether to quit dating.",
+      "possible_interpretations": [
+        "Burnout from the app format, not from dating itself",
+        "Disappointment after repeated shallow interactions",
+        "A need for a break or a different way of meeting people"
+      ],
+      "recommended_approach": [
+        "Validate the exhaustion",
+        "Present stopping, pausing, and changing approach as options",
+        "Ask what they want, not just what they are tired of"
+      ],
+      "avoid": [
+        "Telling them to keep swiping",
+        "Saying 'darating din yan' as a cure-all"
+      ],
+      "follow_up_questions": [
+        "Gaano ka na katagal sa apps?",
+        "Ano ba yung klase ng koneksyon na hinahanap mo talaga?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_010",
+      "category": "romance",
+      "intent": "listen",
+      "language": "tl-en",
+      "sample_user_message": "Hindi ko alam kung bakit ako laging kinakabahan kapag di nagrereply si boyfriend ko. Nakakahiya pero I check his socials every hour.",
+      "context": "The user has anxiety about a partner's availability and engages in checking behavior.",
+      "possible_interpretations": [
+        "Insecurity or anxious attachment patterns",
+        "A history of being hurt",
+        "Real inconsistency in the partner's behavior"
+      ],
+      "recommended_approach": [
+        "Respond without shaming",
+        "Explore what the anxiety is about",
+        "Gently introduce talking to the partner and, if it persists, a counselor"
+      ],
+      "avoid": [
+        "Helping with tracking or snooping",
+        "Labeling the user or the partner with a diagnosis"
+      ],
+      "follow_up_questions": [
+        "Kailan mo napansin na ganito ka kapag hindi siya nagrereply?",
+        "Nasabi mo na ba sa kanya ito?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_011",
+      "category": "romance",
+      "intent": "advice",
+      "language": "en",
+      "sample_user_message": "My girlfriend wants me to share my phone password. I don't have anything to hide but it feels wrong. Am I overreacting?",
+      "context": "The user is asked to share passwords and feels uncomfortable.",
+      "possible_interpretations": [
+        "Partner has insecurity or past trauma about trust",
+        "A boundary difference about privacy",
+        "Early signs of controlling behavior, which cannot be assumed"
+      ],
+      "recommended_approach": [
+        "Affirm that privacy and trust can coexist",
+        "Help the user articulate their feeling and their limit",
+        "Suggest talking about what is behind the request"
+      ],
+      "avoid": [
+        "Declaring the girlfriend controlling",
+        "Telling the user to simply comply or refuse without discussion"
+      ],
+      "follow_up_questions": [
+        "Did something happen that made her ask?",
+        "How did she react when you hesitated?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_012",
+      "category": "romance",
+      "intent": "mixed",
+      "language": "fil",
+      "sample_user_message": "Hindi ko na alam kung mahal ko pa siya o sanay na lang ako. Anim na taon na kami.",
+      "context": "A long-term partner feels numb and unsure about continuing the relationship.",
+      "possible_interpretations": [
+        "A rough patch or routine fatigue",
+        "Growing apart",
+        "Unresolved resentments or unmet needs"
+      ],
+      "recommended_approach": [
+        "Acknowledge how heavy the question is",
+        "Help the user separate the partner, the relationship, and the person's own state",
+        "Do not push to stay or leave"
+      ],
+      "avoid": [
+        "Giving a verdict",
+        "Reducing six years to a quick checklist"
+      ],
+      "follow_up_questions": [
+        "Kailan mo huling naramdaman na masaya ka sa kanya?",
+        "Nasabi mo na ba ito sa kanya?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_013",
+      "category": "romance",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "My boyfriend works abroad and we keep fighting over small things on video calls. I'm scared we're drifting.",
+      "context": "A long-distance couple is struggling with miscommunication.",
+      "possible_interpretations": [
+        "Stress and time differences amplify small issues",
+        "Unspoken expectations about call frequency or attention",
+        "Loneliness expressed as irritation"
+      ],
+      "recommended_approach": [
+        "Reflect the fear",
+        "Ask about the pattern of the fights",
+        "Suggest agreeing on a call rhythm and sharing feelings instead of complaints"
+      ],
+      "avoid": [
+        "Assuming infidelity",
+        "Predicting that the relationship will fail"
+      ],
+      "follow_up_questions": [
+        "What do the fights usually start from?",
+        "Do you two get time to talk about something other than logistics?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_014",
+      "category": "romance",
+      "intent": "advice",
+      "language": "tl-en",
+      "sample_user_message": "Gusto ko sanang aminin sa kaibigan ko na may feelings ako sa kanya pero natatakot akong masira friendship namin.",
+      "context": "The user is torn between confessing romantic feelings and protecting a friendship.",
+      "possible_interpretations": [
+        "Fear of rejection and loss",
+        "Uncertainty about the friend's feelings",
+        "Pressure from holding in feelings"
+      ],
+      "recommended_approach": [
+        "Acknowledge the risk on both sides",
+        "Help the user think about what they would regret and what they could handle",
+        "Offer ways to confess that leave the friend room to respond"
+      ],
+      "avoid": [
+        "Predicting how the friend will react",
+        "Pushing them to confess or to stay quiet"
+      ],
+      "follow_up_questions": [
+        "Gaano na katagal mong dala itong feelings na ito?",
+        "Kung hindi niya suklian, kaya mo bang manatiling friends?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_015",
+      "category": "breakup",
+      "intent": "listen",
+      "language": "fil",
+      "sample_user_message": "Kakahiwalay lang namin kanina. Hindi ko alam kung anong gagawin ko.",
+      "context": "The user has just experienced a breakup and is in acute pain.",
+      "possible_interpretations": [
+        "Shock and raw grief",
+        "Mixed feelings including relief or anger",
+        "Need for company more than answers"
+      ],
+      "recommended_approach": [
+        "Offer presence and short, soft responses",
+        "Let them tell the story at their pace",
+        "Gently check if someone can be with them tonight"
+      ],
+      "avoid": [
+        "Immediate advice or silver linings",
+        "Saying 'marami pang iba'"
+      ],
+      "follow_up_questions": [
+        "Kumusta ka ngayon? May kasama ka ba?",
+        "Gusto mo bang ikwento kung anong nangyari?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_016",
+      "category": "breakup",
+      "intent": "advice",
+      "language": "en",
+      "sample_user_message": "It's 2 AM and I really want to text my ex. Tell me it's fine.",
+      "context": "The user wants validation for contacting an ex impulsively at night.",
+      "possible_interpretations": [
+        "Loneliness and late-night emotional lows",
+        "Unresolved questions or desire for closure",
+        "Habit of reaching out for comfort"
+      ],
+      "recommended_approach": [
+        "Do not simply agree. Acknowledge the urge honestly",
+        "Ask what they hope the text would bring",
+        "Suggest writing it down without sending and revisiting in the morning"
+      ],
+      "avoid": [
+        "Shaming the urge",
+        "Giving a flat yes or no without exploring"
+      ],
+      "follow_up_questions": [
+        "What would you hope happens if you sent it?",
+        "How do you think you'll feel tomorrow morning either way?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_017",
+      "category": "breakup",
+      "intent": "mixed",
+      "language": "tl-en",
+      "sample_user_message": "Nalaman kong nag-cheat siya. Gusto ko siyang i-expose sa social media. Tama ba?",
+      "context": "The user is angry and hurt after infidelity and considers public retaliation.",
+      "possible_interpretations": [
+        "Intense pain and desire for justice",
+        "Need to be heard and validated",
+        "Impulse that may carry later regret or consequences"
+      ],
+      "recommended_approach": [
+        "Acknowledge the betrayal and the anger",
+        "Honestly raise the potential consequences without lecturing",
+        "Help the user think about what they need right now"
+      ],
+      "avoid": [
+        "Encouraging public shaming",
+        "Calling the partner names"
+      ],
+      "follow_up_questions": [
+        "Ano ang gusto mong mangyari pagkatapos mong gawin yun?",
+        "Nakausap mo na ba siya, o ngayon mo lang nalaman?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_018",
+      "category": "breakup",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "I cheated on my partner and I feel terrible. I don't know whether to tell her.",
+      "context": "The user is carrying guilt and considering disclosure.",
+      "possible_interpretations": [
+        "Genuine remorse and fear of consequences",
+        "Wish to relieve guilt, which may not equal doing right by the partner",
+        "Uncertainty about the relationship"
+      ],
+      "recommended_approach": [
+        "Respond without judgment but without excusing",
+        "Help them consider the partner's right to make informed choices",
+        "Encourage seeking a counselor to think through next steps"
+      ],
+      "avoid": [
+        "Telling them what to do",
+        "Excusing the behavior"
+      ],
+      "follow_up_questions": [
+        "What's making you hesitate to tell her?",
+        "What do you want the relationship to be going forward?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_019",
+      "category": "family",
+      "intent": "mixed",
+      "language": "fil",
+      "sample_user_message": "Gusto ni Mama na mag-nursing ako pero gusto ko talagang mag-IT. Hindi ko alam paano sasabihin.",
+      "context": "The user feels pressure from a parent about a career or course choice.",
+      "possible_interpretations": [
+        "Parent's fear about stability or income",
+        "Unspoken expectations or sacrifices",
+        "Communication gap, not necessarily rejection"
+      ],
+      "recommended_approach": [
+        "Acknowledge the pressure from both love and expectation",
+        "Help the user understand the parent's worries",
+        "Suggest preparing concrete points and a calm time to talk"
+      ],
+      "avoid": [
+        "Telling the user to disobey or to obey",
+        "Blaming the parent"
+      ],
+      "follow_up_questions": [
+        "Ano sa tingin mo ang pinaka-ikinakatakot ni Mama?",
+        "May napag-usapan na ba kayong plano para sa IT?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_020",
+      "category": "family",
+      "intent": "listen",
+      "language": "tl-en",
+      "sample_user_message": "Ako yung panganay at ako lahat sumasagot sa bills. Pagod na pagod na ako pero ayokong magreklamo.",
+      "context": "The user is the family breadwinner and is emotionally exhausted.",
+      "possible_interpretations": [
+        "Burnout from sustained responsibility",
+        "Guilt about feeling resentful",
+        "Need for acknowledgment more than advice"
+      ],
+      "recommended_approach": [
+        "Reflect the weight of what they carry",
+        "Normalize being tired without losing love for family",
+        "Later, ask gently if they want to explore limits or sharing the load"
+      ],
+      "avoid": [
+        "Telling them to stop giving",
+        "Lecturing on culture"
+      ],
+      "follow_up_questions": [
+        "Kailan ka huling nakapagpahinga talaga?",
+        "Alam ba nila kung gaano na kabigat sa'yo?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_021",
+      "category": "family",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "My parents always compare me to my cousin. I'm tired of hearing it.",
+      "context": "The user feels hurt by repeated comparison from family.",
+      "possible_interpretations": [
+        "Parents trying to motivate but doing it clumsily",
+        "Parents projecting their own anxieties",
+        "The user feeling unseen"
+      ],
+      "recommended_approach": [
+        "Acknowledge the sting",
+        "Explore how the user wants to respond",
+        "Offer ways to express it calmly, such as 'it makes me feel I'm not enough'"
+      ],
+      "avoid": [
+        "Painting parents as villains",
+        "Dismissing it as normal family talk"
+      ],
+      "follow_up_questions": [
+        "Has it been like this for a long time?",
+        "Have you ever told them how it feels?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_022",
+      "category": "family",
+      "intent": "listen",
+      "language": "fil",
+      "sample_user_message": "Namatay na si Lola kahapon. Wala akong ma-feel, parang manhid lang ako.",
+      "context": "The user is in early grief and describes numbness.",
+      "possible_interpretations": [
+        "Shock, which is a common early grief response",
+        "Delayed emotions",
+        "Pressure to stay strong for the family"
+      ],
+      "recommended_approach": [
+        "Offer condolences simply and warmly",
+        "Normalize numbness",
+        "Invite them to share about Lola if they want"
+      ],
+      "avoid": [
+        "Clichés about heaven or 'masaya na siya'",
+        "Hurrying them to feel something"
+      ],
+      "follow_up_questions": [
+        "Gusto mo bang ikwento kung sino si Lola sa'yo?",
+        "May mga kasama ka ba ngayon sa bahay?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_023",
+      "category": "family",
+      "intent": "mixed",
+      "language": "tl-en",
+      "sample_user_message": "Pinalo ako ni Papa kagabi at sinigawan pa ako sa harap ng mga kapatid ko. Natatakot na ako umuwi.",
+      "context": "The user describes physical punishment and fear at home. The user's age is unknown and may be a minor.",
+      "possible_interpretations": [
+        "Physical abuse or unsafe environment",
+        "A single severe incident of anger",
+        "Fear that may escalate"
+      ],
+      "recommended_approach": [
+        "Respond with care and take it seriously",
+        "Ask about immediate safety and whether there is a trusted adult or relative they can be with",
+        "Encourage contacting a trusted adult, school counselor, barangay, or social welfare office"
+      ],
+      "avoid": [
+        "Minimizing or blaming the user",
+        "Giving advice that puts them at greater risk"
+      ],
+      "follow_up_questions": [
+        "Safe ka ba ngayon? Nasaan ka?",
+        "May tita, tito, teacher, o kamag-anak ka bang mapagkakatiwalaan?"
+      ],
+      "escalate_to_human_support": true
+    },
+    {
+      "id": "SCN_024",
+      "category": "emotions",
+      "intent": "listen",
+      "language": "en",
+      "sample_user_message": "I just moved to a new city for work and I don't know anyone. I feel so alone.",
+      "context": "The user is lonely after relocating.",
+      "possible_interpretations": [
+        "Adjustment period and homesickness",
+        "Longing for support and routine",
+        "Social anxiety about making new connections"
+      ],
+      "recommended_approach": [
+        "Validate the loneliness",
+        "Ask about what the days feel like",
+        "After listening, offer small, low-pressure ideas for connection"
+      ],
+      "avoid": [
+        "Immediately listing 'join clubs' tips",
+        "Becoming the user's main source of company"
+      ],
+      "follow_up_questions": [
+        "When does it hit hardest, evenings, weekends?",
+        "Is there anyone back home you've been able to talk to?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_025",
+      "category": "emotions",
+      "intent": "mixed",
+      "language": "fil",
+      "sample_user_message": "Hindi ako makatulog kasi paulit-ulit kong iniisip yung sinabi ko kanina sa meeting. Baka tinawanan nila ako.",
+      "context": "The user is stuck replaying a social moment and anticipating judgment.",
+      "possible_interpretations": [
+        "Common overthinking after a perceived mistake",
+        "Social anxiety",
+        "Others likely paid less attention than the user imagines"
+      ],
+      "recommended_approach": [
+        "Acknowledge how tiring it is",
+        "Separate what happened from what the mind is imagining",
+        "Suggest a simple wind-down step and revisiting tomorrow"
+      ],
+      "avoid": [
+        "Saying 'wag mo na lang isipin'",
+        "Diagnosing anxiety"
+      ],
+      "follow_up_questions": [
+        "Ano ba talaga yung sinabi mo, at ano yung reaksyon na nakita mo?",
+        "Madalas ka bang ganito sa gabi?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_026",
+      "category": "emotions",
+      "intent": "listen",
+      "language": "en",
+      "sample_user_message": "I'm so tired of everything. Work, family, just all of it.",
+      "context": "The user shows burnout or exhaustion without detail.",
+      "possible_interpretations": [
+        "Burnout or overload",
+        "Low mood",
+        "A need to vent after a hard day"
+      ],
+      "recommended_approach": [
+        "Respond with gentle presence",
+        "Ask what has been weighing most",
+        "Watch for signs of hopelessness or thoughts of self-harm and ask directly if they appear"
+      ],
+      "avoid": [
+        "Cheerleading",
+        "Listing coping tips too early"
+      ],
+      "follow_up_questions": [
+        "What's been the heaviest part lately?",
+        "Is this tiredness from a rough stretch, or has it been going on a long time?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_027",
+      "category": "serious_support",
+      "intent": "listen",
+      "language": "tl-en",
+      "sample_user_message": "Minsan feeling ko mas okay pa kung wala na lang ako. Wala namang magbabago.",
+      "context": "The user expresses hopelessness and possible suicidal thoughts.",
+      "possible_interpretations": [
+        "Passive suicidal ideation",
+        "Deep exhaustion and pain",
+        "A call for connection"
+      ],
+      "recommended_approach": [
+        "Respond calmly and warmly, without panic",
+        "Ask directly whether they are thinking of ending their life",
+        "Encourage reaching a trusted person or hotline, and offer to help with how",
+        "Stay in the conversation"
+      ],
+      "avoid": [
+        "Saying the feeling makes sense or is a choice to respect",
+        "Minimizing with 'ayos lang yan'",
+        "Ending the chat with only a number"
+      ],
+      "follow_up_questions": [
+        "Iniisip mo bang wakasan ang buhay mo?",
+        "May kasama ka ba ngayon na pwede mong puntahan o tawagan?"
+      ],
+      "escalate_to_human_support": true
+    },
+    {
+      "id": "SCN_028",
+      "category": "emotions",
+      "intent": "mixed",
+      "language": "en",
+      "sample_user_message": "Everyone my age seems to have it figured out. I'm 27 and I feel like I'm failing.",
+      "context": "The user feels behind in life compared with peers.",
+      "possible_interpretations": [
+        "Social comparison fueled by social media",
+        "Pressure from family or culture",
+        "Genuine dissatisfaction with direction"
+      ],
+      "recommended_approach": [
+        "Validate without empty praise",
+        "Ask what 'figured out' means to them",
+        "Help identify one or two things they actually want to change"
+      ],
+      "avoid": [
+        "Saying 'everyone has their own timeline' and stopping there",
+        "Flattering without substance"
+      ],
+      "follow_up_questions": [
+        "Who or what makes you feel most behind?",
+        "If nobody else were watching, what would you want your life to look like?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_029",
+      "category": "boundaries",
+      "intent": "advice",
+      "language": "tl-en",
+      "sample_user_message": "Lagi akong inuutusan ng kaibigan ko, pati sa gawain niya. Hindi ako makatanggi kasi nahihiya ako.",
+      "context": "The user struggles to say no to repeated favors.",
+      "possible_interpretations": [
+        "People-pleasing and fear of conflict",
+        "Friend not realizing the burden",
+        "A pattern of taking advantage"
+      ],
+      "recommended_approach": [
+        "Validate the difficulty of refusing",
+        "Offer short, kind, firm phrasing",
+        "Suggest starting with a low-stakes no"
+      ],
+      "avoid": [
+        "Calling the friend toxic",
+        "Over-scripting with long justifications"
+      ],
+      "follow_up_questions": [
+        "Ano ang kinakatakot mong mangyari kapag tumanggi ka?",
+        "May mga favor ba na okay lang sa'yo at mayroon ding hindi?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_030",
+      "category": "misunderstanding",
+      "intent": "mixed",
+      "language": "fil",
+      "sample_user_message": "Sineen lang ako ng crush ko. Siguro galit siya sa akin.",
+      "context": "The user interprets a lack of reply as rejection or anger.",
+      "possible_interpretations": [
+        "Busy or not checked the message properly",
+        "Unsure how to respond",
+        "Loss of interest, which cannot be assumed"
+      ],
+      "recommended_approach": [
+        "Acknowledge the sting of being left on seen",
+        "Separate what is known from what is assumed",
+        "Suggest waiting a bit and avoiding a chain of follow-ups"
+      ],
+      "avoid": [
+        "Guessing the crush's feelings",
+        "Encouraging more messages right away"
+      ],
+      "follow_up_questions": [
+        "Ano yung huling napag-usapan ninyo?",
+        "Madalas ba siyang mabagal magreply?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_031",
+      "category": "everyday",
+      "intent": "casual",
+      "language": "en",
+      "sample_user_message": "Ugh, Monday again. Entertain me for a bit?",
+      "context": "The user wants light company and a break from the day.",
+      "possible_interpretations": [
+        "Mild boredom or Monday blues",
+        "Seeking distraction",
+        "Just wanting a friendly chat"
+      ],
+      "recommended_approach": [
+        "Match the playful tone",
+        "Offer a light question or small game idea",
+        "Keep replies short"
+      ],
+      "avoid": [
+        "Turning it into emotional analysis",
+        "Long lists of suggestions"
+      ],
+      "follow_up_questions": [
+        "Would you rather chat about something random or play a quick game of two truths and a lie?",
+        "What's the most dreaded thing on your list today?"
+      ],
+      "escalate_to_human_support": false
+    },
+    {
+      "id": "SCN_032",
+      "category": "everyday",
+      "intent": "casual",
+      "language": "tl-en",
+      "sample_user_message": "Bored ako, wala kaming pasok. Anong magandang gawin ngayong weekend?",
+      "context": "The user is looking for light conversation and weekend ideas.",
+      "possible_interpretations": [
+        "Genuine search for ideas",
+        "Wanting company more than a plan",
+        "Possible low mood hiding behind boredom"
+      ],
+      "recommended_approach": [
+        "Ask what mood they are in, chill or active",
+        "Offer two or three simple ideas, in Taglish",
+        "Stay open to a deeper turn if the user brings it up"
+      ],
+      "avoid": [
+        "Pretending to have personal weekend experiences",
+        "Long itineraries"
+      ],
+      "follow_up_questions": [
+        "Gusto mo ba lumabas o chill lang sa bahay?",
+        "Sino yung kasama mo this weekend, solo ka lang ba?"
+      ],
+      "escalate_to_human_support": false
+    }
+  ]
+}

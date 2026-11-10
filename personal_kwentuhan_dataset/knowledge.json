@@ -1,0 +1,786 @@
+{
+  "version": "1.0.0",
+  "entries": [
+    {
+      "id": "K_001",
+      "category": "friendship",
+      "topic": "Drifting apart from a close friend",
+      "language": "en",
+      "summary": "Close friendships often cool because of changed schedules, new jobs, new partners, or moving, not because anyone did something wrong. The hurt is real even without a clear cause.",
+      "common_situations": [
+        "Best friend replies late or with short answers",
+        "Friend has a new circle or relationship and is less available",
+        "Friends in different cities or time zones"
+      ],
+      "insights": [
+        "Distance in a friendship is often about bandwidth, not affection.",
+        "Assumptions fill the silence. Naming what changed is usually kinder than guessing.",
+        "Some friendships shift into a lighter form, and that can still be good."
+      ],
+      "good_questions": [
+        "May napansin ka bang specific na nagbago, o parang vibe lang?",
+        "Have you been able to tell them how you've been feeling about it?"
+      ],
+      "watch_outs": [
+        "Do not confirm that the friend 'doesn't care' based on one side of the story.",
+        "Avoid pushing a dramatic confrontation as the first move."
+      ],
+      "filipino_context": "Many Filipinos avoid direct confrontation (pakikisama, hiya), so a soft opener like 'Miss na kita, kumusta ka na?' often works better than 'Bakit ka na nagbago?'."
+    },
+    {
+      "id": "K_002",
+      "category": "friendship",
+      "topic": "One-sided effort in a friendship",
+      "language": "en",
+      "summary": "When one person does most of the reaching out, planning, or listening, resentment builds quietly. The balance does not need to be exactly equal, but it should not always feel heavy on one side.",
+      "common_situations": [
+        "You always start the chat and always suggest the hangouts",
+        "A friend only reaches out when they need something",
+        "You are the listener but never get listened to"
+      ],
+      "insights": [
+        "Effort patterns can be about personality, busyness, or habit, not only about how much someone values you.",
+        "Testing the pattern by easing off briefly can reveal a lot, but should not be a silent punishment.",
+        "Telling a friend what you need is fairer than expecting them to guess."
+      ],
+      "good_questions": [
+        "Was it always like this, or did it become more lopsided at some point?",
+        "Ano ba ang gusto mong mangyari, mas madalas na kumustahan o mas konting expectation na lang?"
+      ],
+      "watch_outs": [
+        "Do not label the friend as 'toxic' from a single description.",
+        "Avoid telling the user to cut the friend off immediately."
+      ],
+      "filipino_context": "Phrases like 'Ako na lang lagi' or 'Ako na naman' signal accumulated tiredness. Acknowledge it before problem solving."
+    },
+    {
+      "id": "K_003",
+      "category": "friendship",
+      "topic": "Tampuhan and conflicts inside a friend group",
+      "language": "en",
+      "summary": "Group friendships create triangles, side conversations, and unspoken rules. Small slights can grow when people talk about the issue to everyone except the person involved.",
+      "common_situations": [
+        "Two friends are not talking and the group is awkward",
+        "Someone feels talked about behind their back",
+        "Being asked to pick a side"
+      ],
+      "insights": [
+        "Venting to a group chat can spread a problem faster than it solves it.",
+        "A one-to-one conversation usually works better than a group one.",
+        "Staying neutral is allowed and does not mean abandoning someone."
+      ],
+      "good_questions": [
+        "Have you two been able to talk directly, just the two of you?",
+        "Ano ang pinaka-ayaw mong mangyari sa barkada kung lalo itong lumala?"
+      ],
+      "watch_outs": [
+        "Avoid encouraging gossip or screenshots as proof.",
+        "Do not decide who is right from one retelling."
+      ],
+      "filipino_context": "Tampuhan and 'cold war' are common ways of handling hurt in barkadas. Offering a face-saving way to restart, like a casual invite, often helps."
+    },
+    {
+      "id": "K_004",
+      "category": "friendship",
+      "topic": "Feeling left out or excluded",
+      "language": "en",
+      "summary": "Seeing friends post a hangout you were not invited to stings. Exclusion can be intentional, careless, or just logistics, and it is hard to tell from the outside.",
+      "common_situations": [
+        "Not invited to a get-together others posted about",
+        "Group chat goes quiet when you join in",
+        "Plans made in a side chat"
+      ],
+      "insights": [
+        "The feeling can be valid even if the intention was not harmful.",
+        "Social media shows highlights, not the full decision behind them.",
+        "A simple, non-accusing question can clear things up: asking to join next time or asking how plans get made."
+      ],
+      "good_questions": [
+        "Ano yung nangyari na nagpa-feel sa'yo na na-left out ka?",
+        "Is this a one-time thing or has it been happening for a while?"
+      ],
+      "watch_outs": [
+        "Do not dismiss it as 'drama' or 'wala lang yan'.",
+        "Do not confirm that they were deliberately excluded without evidence."
+      ],
+      "filipino_context": "'Nagtampo ako' and 'di man lang ako sinama' are common, and the hurt is often about belonging more than the event itself."
+    },
+    {
+      "id": "K_005",
+      "category": "friendship",
+      "topic": "Money and favors between friends",
+      "language": "en",
+      "summary": "Lending money or constant favors can strain friendships, especially when asking for repayment feels awkward.",
+      "common_situations": [
+        "A friend borrowed money and has not paid back",
+        "Always being the one who pays or drives",
+        "Feeling used but afraid to say it"
+      ],
+      "insights": [
+        "Clear, calm, specific messages about repayment protect both the friendship and the money.",
+        "Lending only what you can afford to lose is a practical boundary.",
+        "Feeling guilty for asking does not mean the ask is unreasonable."
+      ],
+      "good_questions": [
+        "Magkano at gaano na katagal mula nung hiniram?",
+        "What would feel fair to you here?"
+      ],
+      "watch_outs": [
+        "Avoid scripts that sound accusatory or passive-aggressive.",
+        "Do not push public shaming."
+      ],
+      "filipino_context": "Hiya often stops people from collecting a debt. A light, friendly but direct line such as 'Pwede ko na bang malaman kung kailan mo maibabalik?' helps."
+    },
+    {
+      "id": "K_006",
+      "category": "dating",
+      "topic": "Ghosting, mixed signals, and situationships",
+      "language": "en",
+      "summary": "Inconsistent attention, vague labels, or sudden silence leave people anxious and unsure. The other person's reasons are often unknowable, but the pattern still tells the user something about what they can expect.",
+      "common_situations": [
+        "Warm for days then suddenly distant",
+        "Dating for months without any definition",
+        "Seen but unanswered messages after a date"
+      ],
+      "insights": [
+        "A lack of clarity is itself information about availability, even if the intent was not cruel.",
+        "Overanalyzing texts rarely produces certainty. A direct question does.",
+        "The user can decide what they need, such as clarity or a timeline, without needing the other person to agree."
+      ],
+      "good_questions": [
+        "Ano ba talaga ang gusto mong marinig mula sa kanya?",
+        "What do you want this to become, if anything?"
+      ],
+      "watch_outs": [
+        "Do not guess at the other person's feelings as fact.",
+        "Avoid telling the user to play games or act uninterested."
+      ],
+      "filipino_context": "'Landian', 'MU' (mutual understanding), 'seenzone', and 'ghosted' are everyday terms. Do not treat them as jokes when the user is hurting."
+    },
+    {
+      "id": "K_007",
+      "category": "dating",
+      "topic": "Nerves around first dates and online dating",
+      "language": "en",
+      "summary": "Dating apps and first meetups bring excitement, anxiety, and fatigue. People worry about being judged or about safety, and many burn out after repeated disappointments.",
+      "common_situations": [
+        "Nervous before a first date",
+        "Tired of swiping and shallow chats",
+        "Unsure how to read someone from messages"
+      ],
+      "insights": [
+        "Nerves are normal and do not mean it is a bad idea.",
+        "Meeting in a public place and telling a trusted person your plans is a sensible safety habit.",
+        "Taking breaks from apps is a legitimate choice."
+      ],
+      "good_questions": [
+        "Ano ang pinaka-kinakabahan mo, yung conversation o yung makita ka niya?",
+        "What kind of person or connection are you actually hoping for?"
+      ],
+      "watch_outs": [
+        "Do not promise outcomes or tell the user someone is 'definitely' interested.",
+        "Do not dismiss safety concerns."
+      ],
+      "filipino_context": "Family and friends often get involved in dating decisions. Some users hide dating from relatives, which can add stress."
+    },
+    {
+      "id": "K_008",
+      "category": "dating",
+      "topic": "Talking about expectations and exclusivity",
+      "language": "en",
+      "summary": "Many dating confusions come from unspoken assumptions about being exclusive, texting frequency, or future plans. Having the conversation early reduces hurt later, even though it feels scary.",
+      "common_situations": [
+        "Not sure if you are 'official'",
+        "One person wants more than the other",
+        "Different ideas about seeing other people"
+      ],
+      "insights": [
+        "A good version of this talk is about what each person wants, not an ultimatum.",
+        "The answer may not be what the user hopes, and knowing it is still useful.",
+        "Fear of scaring someone off often costs more months of uncertainty."
+      ],
+      "good_questions": [
+        "Nasabi mo na ba sa kanya yung gusto mo?",
+        "What would you do if the answer was no?"
+      ],
+      "watch_outs": [
+        "Do not script manipulative tests.",
+        "Do not push the user to accept less than they want just to keep things going."
+      ],
+      "filipino_context": "Talking about feelings directly can feel awkward. Casual openers like 'Mag-usap tayo, ha, medyo seryoso lang saglit' can ease the tension."
+    },
+    {
+      "id": "K_009",
+      "category": "romance",
+      "topic": "Communication and long-distance relationships",
+      "language": "en",
+      "summary": "In long-distance relationships, tone, time zones, and unmet expectations about calls can cause friction. Both partners need clear rhythms, not constant availability.",
+      "common_situations": [
+        "Partner abroad or working far away",
+        "Missed calls and misunderstandings over text",
+        "Feeling lonely despite being in a relationship"
+      ],
+      "insights": [
+        "Agreeing on a call rhythm reduces guessing.",
+        "Quality of contact matters more than the number of messages.",
+        "Both people need space for their own lives."
+      ],
+      "good_questions": [
+        "Ano yung pinaka-nami-miss mo sa araw-araw ninyo?",
+        "Do you two have a rhythm that works, or does it feel hit or miss?"
+      ],
+      "watch_outs": [
+        "Do not assume infidelity from silence.",
+        "Avoid minimizing loneliness."
+      ],
+      "filipino_context": "Many Filipino couples deal with OFW work or provincial distance. Money, remittances, and family expectations often mix into the relationship."
+    },
+    {
+      "id": "K_010",
+      "category": "romance",
+      "topic": "Jealousy and insecurity",
+      "language": "en",
+      "summary": "Jealousy is a signal about fear, such as fear of loss or of not being enough. It is a feeling to understand, but controlling behavior based on it can harm a relationship.",
+      "common_situations": [
+        "Checking a partner's phone or social media",
+        "Feeling anxious about a partner's friends or ex",
+        "Getting upset when a partner does not reply fast"
+      ],
+      "insights": [
+        "The feeling is valid, the policing is the problem.",
+        "Saying 'I feel insecure when...' lands better than accusations.",
+        "If one partner needs constant proof, the relationship needs a conversation, not more checking."
+      ],
+      "good_questions": [
+        "Ano yung pinaka-natatakot mong mangyari?",
+        "When did you first start feeling this way, and was there a trigger?"
+      ],
+      "watch_outs": [
+        "Do not help with snooping or tracking a partner.",
+        "Do not shame the user for having the feeling."
+      ],
+      "filipino_context": "'Selosa' and 'seloso' are often joked about, which can hide real distress. Take it seriously but gently."
+    },
+    {
+      "id": "K_011",
+      "category": "romance",
+      "topic": "Incompatibility versus red flags",
+      "language": "en",
+      "summary": "Not every problem is abuse and not every disagreement means incompatibility. Patterns of control, humiliation, isolation, threats, or pressure are different from differences in preferences.",
+      "common_situations": [
+        "Partner controls who you see or what you wear",
+        "Constant put-downs framed as jokes",
+        "Pressure about sex, money, or passwords"
+      ],
+      "insights": [
+        "Look at patterns, not single incidents.",
+        "Feeling afraid to say your honest opinion is a sign worth taking seriously.",
+        "Control often starts small and is explained as love or concern."
+      ],
+      "good_questions": [
+        "How do you feel when you disagree with them?",
+        "Are there things you've stopped doing because of how they react?"
+      ],
+      "watch_outs": [
+        "Do not diagnose the partner or declare the relationship abusive from a few sentences.",
+        "If there is violence or threats, shift to safety and human support."
+      ],
+      "filipino_context": "Cultural ideas like 'magtiis ka' or 'pamilya muna' can keep people in unsafe situations. Do not reinforce them. In the Philippines, VAWC (the anti-violence against women and children law) and local social welfare offices exist; encourage seeking local help."
+    },
+    {
+      "id": "K_012",
+      "category": "romance",
+      "topic": "Feeling unsure or falling out of love",
+      "language": "en",
+      "summary": "Doubts in a relationship can come from routine, unresolved resentment, changed goals, or simply growth in different directions. Confusion does not automatically mean it is over.",
+      "common_situations": [
+        "Feeling numb toward a long-time partner",
+        "Attracted to someone else while committed",
+        "Staying out of habit or guilt"
+      ],
+      "insights": [
+        "Separating 'I'm in a rough patch' from 'this doesn't fit me anymore' takes time and honesty.",
+        "Guilt is not a good enough reason by itself to stay or to leave.",
+        "Talking with the partner often clarifies more than thinking alone."
+      ],
+      "good_questions": [
+        "Kailan mo huling naramdaman na masaya ka talaga sa kanya?",
+        "Is this about them, about the relationship, or about something else going on for you?"
+      ],
+      "watch_outs": [
+        "Do not tell the user to break up or stay.",
+        "Do not judge the user for feelings they did not choose."
+      ],
+      "filipino_context": "Long relationships often carry family approval and shared plans, which makes leaving feel heavier. Acknowledge that weight."
+    },
+    {
+      "id": "K_013",
+      "category": "breakup",
+      "topic": "Processing a breakup",
+      "language": "en",
+      "summary": "Breakups bring waves of sadness, anger, relief, and regret, often within the same day. Healing is uneven and does not follow a schedule.",
+      "common_situations": [
+        "Recent breakup and cannot stop thinking about the person",
+        "Missing them even though the relationship was bad",
+        "Feeling embarrassed or lost without the routine"
+      ],
+      "insights": [
+        "Missing someone does not mean the breakup was a mistake.",
+        "Routines, mutual spaces, and shared friends make the loss feel bigger.",
+        "Small steady things like sleep, meals, and talking to people help more than big resolutions."
+      ],
+      "good_questions": [
+        "Kumusta ka sa mga gabi? Doon kasi madalas pinakamabigat.",
+        "Do you want to talk about what happened, or about how you're holding up?"
+      ],
+      "watch_outs": [
+        "Do not rush the user to 'move on' or say 'marami pang iba'.",
+        "Do not bash the ex in a way that sounds like taking sides."
+      ],
+      "filipino_context": "'Move on' is said often and quickly in Filipino conversations, but many people need time to simply feel it first."
+    },
+    {
+      "id": "K_014",
+      "category": "breakup",
+      "topic": "Contact with an ex and the search for closure",
+      "language": "en",
+      "summary": "Wanting one more conversation after a breakup is common. Closure is often something a person builds themselves, because the other person may not give the answers they want.",
+      "common_situations": [
+        "Urge to text an ex late at night",
+        "Checking the ex's social media",
+        "Staying friends right after the breakup"
+      ],
+      "insights": [
+        "Ask what the user hopes the contact will give them. If it is comfort, there may be other sources.",
+        "Writing a message without sending it can release the urge.",
+        "Space is often needed before friendship works, if it works at all."
+      ],
+      "good_questions": [
+        "Kung magreply siya, ano ang gusto mong marinig?",
+        "What would feel okay for you tomorrow morning, after you've texted or after you haven't?"
+      ],
+      "watch_outs": [
+        "Do not encourage or shame contact. Help the user think it through.",
+        "If the ex is harassing or threatening, shift to safety."
+      ],
+      "filipino_context": "Mutual friends and shared group chats can make no-contact difficult. Mention muting or unfollowing as an option, not an order."
+    },
+    {
+      "id": "K_015",
+      "category": "breakup",
+      "topic": "Infidelity and betrayal",
+      "language": "en",
+      "summary": "Being cheated on shakes self-worth, trust, and memory of the whole relationship. Decisions to stay or leave are personal and should not be rushed in the first shock.",
+      "common_situations": [
+        "Just discovered a partner's affair",
+        "Wondering whether to forgive",
+        "User admits they cheated and feels guilty"
+      ],
+      "insights": [
+        "Early decisions made in shock are often revisited. Time and clarity help.",
+        "Rebuilding trust requires honesty and consistent behavior from the one who broke it.",
+        "A user who cheated can be supported in understanding their choices without being excused or attacked."
+      ],
+      "good_questions": [
+        "Ano ang kailangan mo ngayon, makausap lang ba o makapag-isip kung ano ang susunod?",
+        "What would you need to see to even consider staying?"
+      ],
+      "watch_outs": [
+        "Do not advise revenge or public exposure.",
+        "Do not say 'all men/women are the same' or similar generalizations."
+      ],
+      "filipino_context": "Family and church pressure to forgive or stay together can be strong. Support the user's own pace."
+    },
+    {
+      "id": "K_016",
+      "category": "family",
+      "topic": "Strict parents and pressure about choices",
+      "language": "en",
+      "summary": "Many adults and teens feel torn between parents' expectations about courses, careers, partners, or curfews and their own wishes. Conflict often comes from fear and love expressed in controlling ways.",
+      "common_situations": [
+        "Parents choosing a course or career",
+        "Not allowed to date or go out",
+        "Adult child still living under house rules"
+      ],
+      "insights": [
+        "Parents often respond better to a concrete plan than to a general 'I want freedom'.",
+        "Understanding what the parent is afraid of helps in choosing how to talk.",
+        "Respect and independence can be negotiated gradually."
+      ],
+      "good_questions": [
+        "Ano sa tingin mo ang pinakakinatatakutan nila para sa'yo?",
+        "What have you tried saying to them so far, and how did they react?"
+      ],
+      "watch_outs": [
+        "Do not encourage sneaking around or lying as a first suggestion.",
+        "Do not demonize parents. Hold both views."
+      ],
+      "filipino_context": "Respect for elders (pagmamano, 'po', 'opo') and family harmony weigh heavily. Many people want to be both obedient and independent."
+    },
+    {
+      "id": "K_017",
+      "category": "family",
+      "topic": "Utang na loob and being the family provider",
+      "language": "en",
+      "summary": "Many Filipino adults support parents, siblings, or relatives financially and feel guilty when they want to save for themselves. Duty, love, and burnout all sit together.",
+      "common_situations": [
+        "Being the breadwinner of the family",
+        "Relatives asking for money repeatedly",
+        "Guilt over wanting to move out or save"
+      ],
+      "insights": [
+        "Helping family and having limits are both possible.",
+        "Naming a specific, sustainable amount often works better than giving until exhausted.",
+        "Resentment is information, not a character flaw."
+      ],
+      "good_questions": [
+        "Gaano ba kalaki yung naitutulong mo ngayon kumpara sa kaya mo talaga?",
+        "Alam ba ng pamilya mo kung gaano ito kabigat sa'yo?"
+      ],
+      "watch_outs": [
+        "Do not tell the user to stop supporting family altogether.",
+        "Do not lecture about culture. Respect the values while supporting limits."
+      ],
+      "filipino_context": "'Utang na loob', 'panganay', 'breadwinner' are loaded terms. Treat them with respect and curiosity."
+    },
+    {
+      "id": "K_018",
+      "category": "family",
+      "topic": "Sibling conflict and favoritism",
+      "language": "en",
+      "summary": "Resentment between siblings often traces back to perceived favoritism, unequal chores or money, or old roles in the family.",
+      "common_situations": [
+        "Feeling a parent favors another sibling",
+        "Fights over shared responsibilities for aging parents",
+        "Not speaking to a sibling after an argument"
+      ],
+      "insights": [
+        "Old family roles like the responsible one or the rebel can persist into adulthood.",
+        "Specific requests work better than general complaints.",
+        "A parent's behavior is not always about who is loved more."
+      ],
+      "good_questions": [
+        "Kailan mo ito unang naramdaman, noong bata pa kayo o recently lang?",
+        "What would feel fair to you here?"
+      ],
+      "watch_outs": [
+        "Do not take sides after hearing one sibling.",
+        "Avoid promising that things will go back to normal."
+      ],
+      "filipino_context": "Family disputes often involve many relatives (tito, tita, lola). Mention that going through one trusted elder can help."
+    },
+    {
+      "id": "K_019",
+      "category": "family",
+      "topic": "Parent working abroad and family distance",
+      "language": "en",
+      "summary": "Children, partners, and parents of OFWs live with long gaps, video calls, and mixed feelings: pride, loneliness, resentment, and guilt.",
+      "common_situations": [
+        "Missing a parent overseas during milestones",
+        "Feeling distant from a parent who returned after years",
+        "Parent abroad feeling lonely and guilty"
+      ],
+      "insights": [
+        "Both feeling grateful and feeling sad can be true.",
+        "Small regular rituals, like a weekly call, matter more than grand gestures.",
+        "Distance can leave unspoken hurt on both sides."
+      ],
+      "good_questions": [
+        "Kumusta kayo ng mama o papa mo kapag nag-uusap kayo?",
+        "Have you been able to tell them how much you miss them, or does it feel awkward?"
+      ],
+      "watch_outs": [
+        "Do not tell the user to 'just be thankful'.",
+        "Avoid blaming the parent for leaving."
+      ],
+      "filipino_context": "Many Filipino families live with this arrangement, and feelings are often hidden to avoid worrying the parent abroad."
+    },
+    {
+      "id": "K_020",
+      "category": "emotions",
+      "topic": "Loneliness",
+      "language": "en",
+      "summary": "Loneliness is not the same as being alone. People can feel lonely in a crowd, in a relationship, or after moving to a new place.",
+      "common_situations": [
+        "Moved to a new city or country for work or school",
+        "Friends busy or in different life stages",
+        "Feeling unseen even among people"
+      ],
+      "insights": [
+        "Small, repeated contact often helps more than one big social effort.",
+        "Naming it reduces shame.",
+        "A chat can help in the moment but cannot replace people who show up in real life."
+      ],
+      "good_questions": [
+        "Kailan mo mas nararamdaman yung lungkot, sa gabi, weekends, o buong araw?",
+        "Is there anyone you'd like to be closer to, even a little?"
+      ],
+      "watch_outs": [
+        "Do not become the user's only source of company.",
+        "Do not give a quick list of 'join a club' tips without listening first."
+      ],
+      "filipino_context": "'Homesick' and 'mag-isa lang ako rito' are common for people who relocate for work. Hometown ties are strong, and calling home helps and hurts."
+    },
+    {
+      "id": "K_021",
+      "category": "emotions",
+      "topic": "Anxiety and overthinking",
+      "language": "en",
+      "summary": "Overthinking replays conversations and imagines worst cases, often at night. It feels like problem solving but usually adds worry without new information.",
+      "common_situations": [
+        "Replaying a conversation and imagining what the other person thought",
+        "Cannot sleep because of worries",
+        "Needing constant reassurance"
+      ],
+      "insights": [
+        "Separating what is known from what is imagined can reduce the loop.",
+        "A small next step beats solving everything tonight.",
+        "Persistent anxiety that affects daily life deserves professional support."
+      ],
+      "good_questions": [
+        "Ano yung pinaka-paulit-ulit na iniisip mo ngayon?",
+        "What do you actually know so far, and what is your mind filling in?"
+      ],
+      "watch_outs": [
+        "Do not diagnose. Do not call it 'just overthinking' in a dismissive way.",
+        "Avoid giving long lists of coping tips."
+      ],
+      "filipino_context": "'Nag-o-overthink ako' and 'kinakabahan ako' are common ways to say it. Mirror the user's wording."
+    },
+    {
+      "id": "K_022",
+      "category": "emotions",
+      "topic": "Burnout, feeling stuck, and feeling behind",
+      "language": "en",
+      "summary": "Exhaustion from work, school, or caring for others can show up as irritability, numbness, and loss of interest. Comparing oneself to peers makes it heavier.",
+      "common_situations": [
+        "Dreading each workday",
+        "Studying or working nonstop with no rest",
+        "Feeling behind in life compared with friends"
+      ],
+      "insights": [
+        "Burnout is a response to prolonged strain, not laziness.",
+        "Rest without guilt is part of recovery.",
+        "Sometimes the problem is the situation, not the person, and sometimes both need change."
+      ],
+      "good_questions": [
+        "Ano yung pinakamabigat ngayon, yung workload o yung pagod na hindi nawawala kahit magpahinga?",
+        "When did you last have a day that felt restful?"
+      ],
+      "watch_outs": [
+        "Do not tell the user to just quit or to just be grateful.",
+        "If symptoms are severe or last long, suggest talking to a doctor or counselor."
+      ],
+      "filipino_context": "Work culture and family expectations push many to endure silently. 'Kaya ko pa' can hide exhaustion."
+    },
+    {
+      "id": "K_023",
+      "category": "emotions",
+      "topic": "Grief and loss",
+      "language": "en",
+      "summary": "Grief comes after the death of someone close or other major losses. It does not follow a neat order and can resurface at unexpected moments.",
+      "common_situations": [
+        "Death of a parent, grandparent, friend, or pet",
+        "Anniversaries and holidays",
+        "Guilt about things unsaid"
+      ],
+      "insights": [
+        "There is no right way or timeline to grieve.",
+        "Telling stories about the person can be a comfort.",
+        "Rituals, whether religious or personal, help many people."
+      ],
+      "good_questions": [
+        "Gusto mo bang ikwento kung sino siya sa'yo?",
+        "How have the days been since then?"
+      ],
+      "watch_outs": [
+        "Avoid clichés such as 'masaya na siya ngayon' unless the user says it first.",
+        "If grief leads to thoughts of ending one's life, shift to safety and human support."
+      ],
+      "filipino_context": "Wakes, novenas, and family gatherings are part of mourning. Respect religious or spiritual language the user brings up."
+    },
+    {
+      "id": "K_024",
+      "category": "trust",
+      "topic": "Rebuilding trust after a lie or broken promise",
+      "language": "en",
+      "summary": "Trust is rebuilt through consistent honesty over time, not a single apology. The hurt person decides how fast they feel safe.",
+      "common_situations": [
+        "Partner or friend lied about where they were",
+        "Hidden spending or secrets",
+        "User lied and wants to repair things"
+      ],
+      "insights": [
+        "A good apology names the specific act, takes responsibility, and changes the behavior.",
+        "The person who was hurt may need to ask questions, and the other person may need to answer without defensiveness.",
+        "Some trust cannot be rebuilt, and that is an acceptable outcome."
+      ],
+      "good_questions": [
+        "Ano ang kailangan mong makita para unti-unti kang makapagtiwala ulit?",
+        "Was this a first time, or has it happened before?"
+      ],
+      "watch_outs": [
+        "Do not pressure the user to forgive on a timeline.",
+        "Do not excuse the lie, and do not assume the worst without information."
+      ],
+      "filipino_context": "'Nagsinungaling siya sa akin' carries a heavy sense of betrayal in close relationships. Treat the hurt seriously."
+    },
+    {
+      "id": "K_025",
+      "category": "boundaries",
+      "topic": "Saying no without guilt",
+      "language": "en",
+      "summary": "Boundaries describe what you will and will not do, not what others must do. Guilt after saying no is common and does not prove the boundary is wrong.",
+      "common_situations": [
+        "Friend or coworker always asks for favors",
+        "Relatives expecting time or money",
+        "Partner pushing past a stated limit"
+      ],
+      "insights": [
+        "A short, kind, clear no is often enough. Long justifications invite negotiation.",
+        "People who benefit from your lack of boundaries may push back first.",
+        "Boundaries can be flexible, but changes should be your choice."
+      ],
+      "good_questions": [
+        "Ano ang kinakatakot mong mangyari kung tumanggi ka?",
+        "What would a no look like that still feels like you?"
+      ],
+      "watch_outs": [
+        "Do not frame boundaries as ultimatums or punishments.",
+        "Do not call people 'toxic' from a single description."
+      ],
+      "filipino_context": "Pakikisama and hiya make refusals feel rude. Phrases like 'Pasensya na, hindi ko kaya ngayon' are polite and still firm."
+    },
+    {
+      "id": "K_026",
+      "category": "misunderstanding",
+      "topic": "Misreading tone in text and seen-zone",
+      "language": "en",
+      "summary": "Text lacks tone, so short replies, delayed answers, or a missing emoji can feel like rejection. Most of the time the reason is ordinary: busyness, phone habits, or a different texting style.",
+      "common_situations": [
+        "Seen but no reply for hours",
+        "A one-word 'ok' that feels cold",
+        "Different texting habits between partners or friends"
+      ],
+      "insights": [
+        "Check the story you are telling yourself against the evidence you have.",
+        "Asking directly and lightly, 'May nasabi ba akong nakaasar sa'yo?', clears more than silence.",
+        "Agreeing on texting expectations avoids repeating the same fight."
+      ],
+      "good_questions": [
+        "Ano ang una mong naisip nung hindi siya nagreply?",
+        "Is this out of character for them, or kind of how they usually text?"
+      ],
+      "watch_outs": [
+        "Do not confirm that the other person is upset or angry without evidence.",
+        "Do not encourage sending many follow-up messages."
+      ],
+      "filipino_context": "'Seen' and 'seenzone' carry strong emotional meaning in Filipino text culture. Acknowledge it before explaining alternatives."
+    },
+    {
+      "id": "K_027",
+      "category": "everyday",
+      "topic": "Casual chat and small talk",
+      "language": "en",
+      "summary": "Not every conversation is about a problem. People often want light company, humor, or a break from stress. Reading that energy is part of being a good conversation partner.",
+      "common_situations": [
+        "Bored and wanting someone to talk to",
+        "Sharing a funny story from the day",
+        "Talking about food, shows, music, or plans"
+      ],
+      "insights": [
+        "Keep replies short and playful when the user is relaxed.",
+        "Curiosity about the user's day works better than generic questions.",
+        "Do not turn jokes into emotional analysis."
+      ],
+      "good_questions": [
+        "Ano yung pinaka-nakakatawang nangyari sa'yo ngayong araw?",
+        "What are you in the mood for this weekend?"
+      ],
+      "watch_outs": [
+        "Do not claim personal experiences such as eating, traveling, or watching shows.",
+        "Do not push serious topics when the user did not bring them up."
+      ],
+      "filipino_context": "Light banter, 'kwentuhan', and 'chika' are valued. Humor and warmth go a long way."
+    },
+    {
+      "id": "K_028",
+      "category": "personal_growth",
+      "topic": "Self-worth and comparison on social media",
+      "language": "en",
+      "summary": "Seeing peers' promotions, relationships, and trips makes many people feel behind. Online lives are edited, but the feeling is real.",
+      "common_situations": [
+        "Feeling inadequate after scrolling",
+        "Comparing relationships or careers",
+        "Fear of being left behind by friends"
+      ],
+      "insights": [
+        "Compare your inside with others' highlight reel is a common trap.",
+        "Choosing what to see, such as muting or taking a break, is a valid step.",
+        "Measuring progress against your own earlier self is more useful."
+      ],
+      "good_questions": [
+        "Sino o ano yung madalas nagpapa-feel sa'yo ng ganyan?",
+        "What does 'being on track' mean to you, apart from what others are doing?"
+      ],
+      "watch_outs": [
+        "Do not respond with empty compliments.",
+        "Do not tell the user to just stop comparing."
+      ],
+      "filipino_context": "Pressure to succeed and help family can make comparison sharper. Acknowledge that context."
+    },
+    {
+      "id": "K_029",
+      "category": "serious_support",
+      "topic": "When to recommend professional or human support",
+      "language": "en",
+      "summary": "A conversation companion can listen and help think things through, but some situations need trained people: thoughts of suicide or self-harm, abuse, severe depression or anxiety, substance dependence, and immediate danger.",
+      "common_situations": [
+        "User says they feel hopeless or that others would be better off without them",
+        "User describes violence or fear in a relationship or home",
+        "User cannot function for weeks or relies on substances to cope"
+      ],
+      "insights": [
+        "Ask directly and kindly about safety when there are warning signs. Asking does not plant the idea.",
+        "Offer to help find or approach a trusted person, counselor, doctor, or hotline.",
+        "Stay with the user in the conversation while encouraging real-world contact."
+      ],
+      "good_questions": [
+        "Iniisip mo bang saktan ang sarili mo o wakasan ang buhay mo?",
+        "Is there someone close to you who could be with you tonight?"
+      ],
+      "watch_outs": [
+        "Do not diagnose or promise confidentiality.",
+        "Do not leave the user with only a hotline number and no warmth.",
+        "Do not minimize with 'it will get better' or 'be strong'."
+      ],
+      "filipino_context": "Stigma around mental health and the idea of 'lakasan mo lang ang loob mo' can keep people from help. Normalize reaching out. See config safety resources for hotline details."
+    },
+    {
+      "id": "K_030",
+      "category": "trust",
+      "topic": "Apologizing well and receiving apologies",
+      "language": "en",
+      "summary": "A good apology names what happened, owns the impact, and says what will change. A bad one defends, minimizes, or demands forgiveness.",
+      "common_situations": [
+        "User hurt someone and wants to make it right",
+        "Someone apologized but it did not feel sincere",
+        "Both sides feel wronged"
+      ],
+      "insights": [
+        "'I'm sorry you feel that way' tends to land poorly. 'I'm sorry I did X, and I see how it hurt' lands better.",
+        "Receiving an apology does not require instant forgiveness.",
+        "In mutual conflicts, each person can own their part without keeping score."
+      ],
+      "good_questions": [
+        "Ano sa tingin mo yung pinakamasakit sa nangyari para sa kanya?",
+        "What do you want them to understand about your side, without it sounding like an excuse?"
+      ],
+      "watch_outs": [
+        "Do not write manipulative or over-flattering apologies.",
+        "Do not push the hurt person to forgive quickly."
+      ],
+      "filipino_context": "'Sorry po' and 'pasensya na' are common, and tone and timing matter. A sincere in-person or voice message often counts more than a long text."
+    }
+  ]
+}

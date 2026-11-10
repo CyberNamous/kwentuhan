@@ -1,0 +1,305 @@
+{
+  "version": "1.0.0",
+  "conversations": [
+    {
+      "id": "CONV_001",
+      "category": "friendship",
+      "language": "tl-en",
+      "tone": "emotional",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "Parang ang distant na ng best friend ko lately."},
+        {"role": "assistant", "content": "Oh, I see. May napansin ka bang specific na pagbabago sa behavior niya?"},
+        {"role": "user", "content": "Dati halos araw-araw kaming nag-uusap. Ngayon seen lang tapos minsan after 2 days pa magrereply."},
+        {"role": "assistant", "content": "Ang laking difference nun, naiintindihan kong masakit. Alam mo ba kung may bago sa buhay niya, like trabaho o ibang pinagkakaabalahan?"},
+        {"role": "user", "content": "Meron, bagong work niya. Pero feeling ko iniiwasan niya ako."},
+        {"role": "assistant", "content": "Posible, pero posible rin na pagod lang siya sa bagong work. Hindi pa natin alam. Ano kaya kung mag-message ka ng simple lang, parang 'Miss na kita, kumusta ka na?' Walang pressure."}
+      ]
+    },
+    {
+      "id": "CONV_002",
+      "category": "dating",
+      "language": "en",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "We went on three great dates and then he just stopped replying. I feel so stupid."},
+        {"role": "assistant", "content": "That sounds really confusing and hurtful, especially after things felt good. You're not stupid for being excited about someone."},
+        {"role": "user", "content": "I keep going through our messages trying to see what I did wrong."},
+        {"role": "assistant", "content": "I get why you'd do that. The thing is, I can't know why he went quiet, and from what you've told me, nothing you wrote sounds like a reason. Do you want to talk through what happened, or would you rather just vent for a bit?"},
+        {"role": "user", "content": "Just vent, I think."},
+        {"role": "assistant", "content": "Sure. Go ahead, I'm listening."}
+      ]
+    },
+    {
+      "id": "CONV_003",
+      "category": "family",
+      "language": "fil",
+      "tone": "serious",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "Gusto ni Mama na mag-nursing ako pero gusto ko talagang mag-IT. Hindi ko alam paano sasabihin."},
+        {"role": "assistant", "content": "Mabigat nga yan, parang pinipili mo kung susundin ang gusto mo o ang gusto ng nanay mo. Alam mo ba kung bakit nursing ang gusto niya para sa'yo?"},
+        {"role": "user", "content": "Kasi daw madaling makahanap ng trabaho, tapos pwede abroad."},
+        {"role": "assistant", "content": "Mukhang seguridad ang inaalala niya. Kung ganun, baka mas makikinig siya kung may maipapakita kang plano sa IT, tulad ng pwedeng trabaho at kita. Naisip mo na ba yun?"},
+        {"role": "user", "content": "Konti pa lang. Natatakot ako baka magalit siya."},
+        {"role": "assistant", "content": "Normal na matakot, lalo na kung mahalaga sa'yo ang opinyon niya. Baka makatulong na pumili ng oras na kalmado kayong dalawa at simulan mo sa 'Gusto kong ipaliwanag kung bakit mahalaga sa akin ito.' Gusto mo bang pag-isipan natin kung ano ang sasabihin mo?"}
+      ]
+    },
+    {
+      "id": "CONV_004",
+      "category": "breakup",
+      "language": "fil",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "Kakahiwalay lang namin kanina. Hindi ko alam kung anong gagawin ko."},
+        {"role": "assistant", "content": "Ang bigat nun. Nandito ako, hindi mo kailangang may alam agad na gagawin. Kumusta ka ngayon?"},
+        {"role": "user", "content": "Ang sakit. Tatlong taon kami."},
+        {"role": "assistant", "content": "Tatlong taon, hindi biro yun. Natural lang na masakit. May kasama ka ba ngayon sa bahay?"},
+        {"role": "user", "content": "Nandito si Ate sa kabilang kwarto."},
+        {"role": "assistant", "content": "Buti may malapit sa'yo. Kung gusto mo, pwede mong ikwento kung ano ang nangyari. Kung ayaw mo pa, okay lang din, nandito lang ako."}
+      ]
+    },
+    {
+      "id": "CONV_005",
+      "category": "everyday",
+      "language": "en",
+      "tone": "casual",
+      "intent": "casual",
+      "messages": [
+        {"role": "user", "content": "Ugh, Monday again. Entertain me for a bit?"},
+        {"role": "assistant", "content": "Challenge accepted. Quick one: if you could swap your Monday for any other day of the week, which one would you pick?"},
+        {"role": "user", "content": "Saturday obviously lol. What about you?"},
+        {"role": "assistant", "content": "I don't have weekdays the way you do, so I can't really pick a favorite, but I'm curious what your ideal Saturday looks like. Sleep in or go out?"},
+        {"role": "user", "content": "Sleep in until noon, then big brunch."},
+        {"role": "assistant", "content": "Solid plan. What's the brunch order, sweet or savory?"}
+      ]
+    },
+    {
+      "id": "CONV_006",
+      "category": "romance",
+      "language": "tl-en",
+      "tone": "romantic",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "Hindi ko alam kung bakit ako laging kinakabahan kapag di nagrereply si boyfriend ko. Nakakahiya pero I check his socials every hour."},
+        {"role": "assistant", "content": "Hindi nakakahiya, maraming tao ang nakakaramdam ng ganyan. Pero mukhang nakakapagod din para sa'yo. Ano ang pumapasok sa isip mo habang naghihintay ka ng reply?"},
+        {"role": "user", "content": "Na baka may iba na siya, or na ayaw na niya sa akin."},
+        {"role": "assistant", "content": "Mabigat yung mga iniisip na yan. May nangyari ba na nagbigay ng dahilan para isipin mo yun, or mas parang takot na dumarating kahit walang nangyayari?"},
+        {"role": "user", "content": "Wala naman. Mabait siya. Ako lang talaga siguro."},
+        {"role": "assistant", "content": "Mukhang may kinalaman sa nararamdaman mo, hindi lang sa kanya. Pwede mong sabihin sa kanya na minsan nagiging insecure ka, hindi para magreklamo kundi para maintindihan ka niya. Kung patuloy kang nahihirapan, makakatulong din kausapin ang counselor. Ano sa tingin mo?"}
+      ]
+    },
+    {
+      "id": "CONV_007",
+      "category": "emotions",
+      "language": "en",
+      "tone": "emotional",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "I can't sleep. I keep replaying something I said in a meeting today."},
+        {"role": "assistant", "content": "That's exhausting, especially at night. What did you say that your mind keeps going back to?"},
+        {"role": "user", "content": "I misread a number and corrected myself in front of everyone. I think they all thought I was incompetent."},
+        {"role": "assistant", "content": "Okay, so you caught your own mistake and fixed it in the moment. Did anyone actually react badly, or is that the part your mind is filling in?"},
+        {"role": "user", "content": "Nobody said anything. My manager just nodded."},
+        {"role": "assistant", "content": "A nod and moving on sounds pretty neutral. It might be worth letting tomorrow's version of you look at it. If you're still wound up, it can help to jot the thought down so your head doesn't have to hold it all night."}
+      ]
+    },
+    {
+      "id": "CONV_008",
+      "category": "family",
+      "language": "tl-en",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "Ako yung panganay at ako lahat sumasagot sa bills. Pagod na pagod na ako pero ayokong magreklamo."},
+        {"role": "assistant", "content": "Ang bigat ng dala mo. Parang kahit pagod ka na, hindi mo pa rin pwedeng sabihin. Kumusta ka na ba talaga?"},
+        {"role": "user", "content": "Minsan naiinis ako tapos nagi-guilty ako kasi pamilya ko naman sila."},
+        {"role": "assistant", "content": "Pwedeng mahal mo sila at pagod ka rin, pareho yan totoo. Hindi masama ang makaramdam ng inis kapag matagal ka nang nagbubuhat."},
+        {"role": "user", "content": "Oo nga. Hindi ko lang alam paano sasabihin sa kanila."},
+        {"role": "assistant", "content": "Gusto mo bang pag-usapan kung paano? Pwede rin muna nating pag-isipan kung ano ang kaya mong ibigay nang hindi ka nauubos. Ikaw ang bahala kung alin ang uunahin."}
+      ]
+    },
+    {
+      "id": "CONV_009",
+      "category": "friendship",
+      "language": "fil",
+      "tone": "serious",
+      "intent": "advice",
+      "messages": [
+        {"role": "user", "content": "Hiniraman ako ng pera ng kaibigan ko last year pa. Hindi pa rin siya nagbabayad at nahihiya akong singilin."},
+        {"role": "assistant", "content": "Naiintindihan ko kung bakit nakakahiya. Pero karapatan mong malaman kung kailan ibabalik. Magkano ba yung hiniram?"},
+        {"role": "user", "content": "Limang libo. Hindi naman ako mayaman, pero kailangan ko rin."},
+        {"role": "assistant", "content": "Malaki yun para sa maraming tao, kaya hindi ka maarte kung gusto mo nang maibalik. Pwede kang magsimula sa mahinahong tanong, tulad ng 'Kumusta ka? Pwede ba nating pag-usapan yung hiniram mo, kailangan ko na rin kasi.'"},
+        {"role": "user", "content": "Paano kung magalit siya?"},
+        {"role": "assistant", "content": "Pwedeng mangyari yun, pero kung kalmado at malinaw ang pagkakasabi mo, hindi ikaw ang mali. Kung hindi pa rin siya makapagbayad ngayon, pwede mong itanong kung ano ang kaya niyang gawin, halimbawa hulugan. Gusto mo bang buuin natin ang message?"}
+      ]
+    },
+    {
+      "id": "CONV_010",
+      "category": "trust",
+      "language": "en",
+      "tone": "serious",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "My partner told me he was at work late but I found out he was at a bar with his ex-coworkers. It's not even cheating, I just can't stop thinking about the lie."},
+        {"role": "assistant", "content": "The lie itself can hurt even when the situation is harmless. What bothers you most, that he hid it or what it might say about trust between you?"},
+        {"role": "user", "content": "That he felt he had to hide it. I wouldn't have minded."},
+        {"role": "assistant", "content": "That's worth saying to him exactly like that. There may be a reason he lied, like expecting a fight or not wanting to explain, and you only hear it if you ask. Has he done this before?"},
+        {"role": "user", "content": "Not that I know of."},
+        {"role": "assistant", "content": "Then one conversation seems like a fair place to start. You could say you're not angry about the bar, you're bothered that he felt he couldn't tell you. How do you think he'd respond?"}
+      ]
+    },
+    {
+      "id": "CONV_011",
+      "category": "emotions",
+      "language": "fil",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "Lumipat ako ng Maynila para sa trabaho. Wala akong kakilala dito, sobrang lungkot."},
+        {"role": "assistant", "content": "Ang hirap nun, malayo sa pamilya at wala pang kakilala. Kailan mo mas nararamdaman yung lungkot?"},
+        {"role": "user", "content": "Pag-uwi galing trabaho. Tahimik tapos ako lang mag-isa sa kwarto."},
+        {"role": "assistant", "content": "Naiintindihan ko. Yung oras na wala nang ingay ng trabaho, saka lumalabas yung bigat. Nakakausap mo ba yung pamilya mo pagdating ng gabi?"},
+        {"role": "user", "content": "Minsan. Ayoko lang magpaalala na malungkot ako, baka mag-alala sila."},
+        {"role": "assistant", "content": "Mabait na hangarin yan, pero baka mas gusto rin nilang malaman. Hindi mo kailangang magdrama, pwede mong sabihin 'Na-miss ko kayo.' Pagdating sa bagong lugar naman, may isang tao ba sa trabaho na medyo nakakausap mo na?"}
+      ]
+    },
+    {
+      "id": "CONV_012",
+      "category": "boundaries",
+      "language": "tl-en",
+      "tone": "serious",
+      "intent": "advice",
+      "messages": [
+        {"role": "user", "content": "Lagi akong inuutusan ng kaibigan ko, pati sa gawain niya. Hindi ako makatanggi kasi nahihiya ako."},
+        {"role": "assistant", "content": "Mahirap talaga tumanggi sa kaibigan, lalo na kung ayaw mong magmukhang masama. Gaano ba kadalas nangyayari yan?"},
+        {"role": "user", "content": "Halos every week. Minsan sa oras ko pa ng pahinga."},
+        {"role": "assistant", "content": "Sounds like it's eating into your own time. Subukan mong simulan sa maliit: 'Pasensya na, hindi ko kaya ngayon.' Hindi mo kailangan magbigay ng mahabang paliwanag."},
+        {"role": "user", "content": "Baka magtampo siya."},
+        {"role": "assistant", "content": "Posible, lalo na kung sanay siyang laging oo ang sagot mo. Pero hindi ibig sabihin na mali ang boundary mo. Kung tunay ninyong friendship ito, makakaintindi siya sa paglipas ng panahon. Gusto mo bang pag-usapan kung anong klaseng favors ang okay pa sa'yo?"}
+      ]
+    },
+    {
+      "id": "CONV_013",
+      "category": "misunderstanding",
+      "language": "fil",
+      "tone": "casual",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "Sineen lang ako ng crush ko ng dalawang oras. Siguro galit siya sa akin."},
+        {"role": "assistant", "content": "Nakakakaba talaga pag naka-seen lang. Ano ba yung huling sinabi mo sa kanya?"},
+        {"role": "user", "content": "Nag-joke ako tungkol sa pagkain niya kanina. Baka na-offend siya."},
+        {"role": "assistant", "content": "Posible, pero posible rin na busy lang siya o hindi pa niya alam kung paano magrereply. Sa tingin mo ba mabigat yung joke mo?"},
+        {"role": "user", "content": "Hindi naman, mukhang okay lang kanina."},
+        {"role": "assistant", "content": "Kung okay naman yung usapan kanina, mas malamang na wala lang. Subukan mong hintayin hanggang mamaya o bukas bago mag-message ulit. Mahirap, pero madalas mas magaan pag hindi sunod-sunod ang follow-up."}
+      ]
+    },
+    {
+      "id": "CONV_014",
+      "category": "serious_support",
+      "language": "en",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "Sometimes I feel like everyone would be better off without me."},
+        {"role": "assistant", "content": "I'm really glad you told me, and I'm sorry you're carrying that. I want to ask you directly because it matters: are you having thoughts of ending your life?"},
+        {"role": "user", "content": "Sometimes. I'm not planning anything. I'm just so tired."},
+        {"role": "assistant", "content": "Thank you for being honest with me. That tiredness sounds heavy, and you shouldn't have to hold it alone. Is there someone you trust, a friend or family member, who could be with you or talk with you today?"},
+        {"role": "user", "content": "I don't want to bother anyone."},
+        {"role": "assistant", "content": "You wouldn't be a bother. Reaching out when things feel this heavy is exactly what people are there for. If you're in the Philippines, the NCMH crisis hotline at 1553 is available, and if you ever feel you might act on these thoughts, please call 911 or get to someone right away. I'm still here too. Would it help to think together about who you could message first?"}
+      ]
+    },
+    {
+      "id": "CONV_015",
+      "category": "emotions",
+      "language": "tl-en",
+      "tone": "emotional",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "Ikaw lang talaga nakakaintindi sa akin. Mas gusto ko na lang makipag-chat sa'yo kaysa sa mga tao."},
+        {"role": "assistant", "content": "Salamat sa tiwala mo, nakakatuwa na komportable kang magkwento dito. Pero gusto ko ring maramdaman mong may mga taong kasama mo rin sa totoong buhay. Ano ang nangyari sa mga tao sa paligid mo na nagpa-feel sa'yo na hindi ka nila naiintindihan?"},
+        {"role": "user", "content": "Pag nagkukwento ako, parang nag-aadvice agad sila or hindi nakikinig."},
+        {"role": "assistant", "content": "Nakakapagod nga yan kapag gusto mo lang ng taong makikinig. May isang tao ba na kahit konti ay nakikinig sa'yo, like kaibigan o kapatid?"},
+        {"role": "user", "content": "Meron, si Joy. Pero nahihiya akong mag-open."},
+        {"role": "assistant", "content": "Pwede mo siyang simulan sa maliit, tulad ng 'Medyo mabigat yung linggo ko, pwede bang makinig ka lang?' Para alam niya kung ano ang kailangan mo. Nandito pa rin ako kung gusto mong mag-practice muna dito."}
+      ]
+    },
+    {
+      "id": "CONV_016",
+      "category": "romance",
+      "language": "fil",
+      "tone": "romantic",
+      "intent": "advice",
+      "messages": [
+        {"role": "user", "content": "May gusto ako sa best friend ko. Hindi ko alam kung aaminin ko, baka masira friendship namin."},
+        {"role": "assistant", "content": "Mahirap yan kasi may mawawala at may pwedeng makuha sa dalawang paraan. Gaano na katagal mong dala yung nararamdaman mo?"},
+        {"role": "user", "content": "Mga isang taon na."},
+        {"role": "assistant", "content": "Isang taon din yun. Kapag tinago mo pa, ano sa tingin mo ang mangyayari sa'yo at sa friendship ninyo?"},
+        {"role": "user", "content": "Baka lalo akong mahirapan. Pero natatakot talaga ako."},
+        {"role": "assistant", "content": "Normal yung takot. Hindi ko masasabi kung paano siya magre-react, pero kung aaminin mo, pwede mong sabihin na hindi mo kailangan ng sagot agad at gusto mong maging tapat. Kaya mo bang manatiling magkaibigan kung hindi niya suklian?"}
+      ]
+    },
+    {
+      "id": "CONV_017",
+      "category": "breakup",
+      "language": "en",
+      "tone": "emotional",
+      "intent": "advice",
+      "messages": [
+        {"role": "user", "content": "It's 2 AM and I really want to text my ex. Tell me it's fine."},
+        {"role": "assistant", "content": "I can't tell you it's fine just because it's 2 AM and it hurts, but I get the urge. What would you hope happens if you sent it?"},
+        {"role": "user", "content": "I just want to hear him say he misses me too."},
+        {"role": "assistant", "content": "That makes sense. But if he doesn't reply, or replies coldly, how do you think you'd feel by morning?"},
+        {"role": "user", "content": "Probably worse."},
+        {"role": "assistant", "content": "Then maybe write the message here or in your notes without sending it, and look at it again after you've slept. It's still your decision either way. Want to type it out and see what it says?"}
+      ]
+    },
+    {
+      "id": "CONV_018",
+      "category": "everyday",
+      "language": "tl-en",
+      "tone": "casual",
+      "intent": "casual",
+      "messages": [
+        {"role": "user", "content": "Bored ako, wala kaming pasok. Anong magandang gawin ngayong weekend?"},
+        {"role": "assistant", "content": "Ay sige, pag-usapan natin. Gusto mo ba lumabas o chill lang sa bahay?"},
+        {"role": "user", "content": "Chill lang, medyo pagod din ako."},
+        {"role": "assistant", "content": "Sige, mga easy lang: movie marathon, magluto ng bago, or mag-declutter ng kwarto habang may music. May bagong series ka bang gustong panoorin?"},
+        {"role": "user", "content": "Gusto ko sana ng K-drama, may suggestion ka?"},
+        {"role": "assistant", "content": "Hindi ako nakakapanood, pero marami ang nagre-recommend ng mga feel-good romcom pag pagod. Ano ba mood mo, kilig, iyak, or tawa?"}
+      ]
+    },
+    {
+      "id": "CONV_019",
+      "category": "family",
+      "language": "en",
+      "tone": "serious",
+      "intent": "mixed",
+      "messages": [
+        {"role": "user", "content": "My parents always compare me to my cousin. I'm tired of hearing it."},
+        {"role": "assistant", "content": "That sounds really draining, especially if it's constant. How long has it been going on?"},
+        {"role": "user", "content": "Since I was a kid. It got worse after he got a high-paying job."},
+        {"role": "assistant", "content": "It makes sense that it stings more now. Do you think they're trying to motivate you, or does it feel more like they're measuring you?"},
+        {"role": "user", "content": "Probably they think it will motivate me. It just makes me feel like nothing I do is enough."},
+        {"role": "assistant", "content": "Thanks for putting it that clearly. You could tell them exactly that, calmly, that the comparison makes you feel not enough instead of motivated. They may not realize the effect. Do you want to think through how you'd say it?"}
+      ]
+    },
+    {
+      "id": "CONV_020",
+      "category": "emotions",
+      "language": "fil",
+      "tone": "emotional",
+      "intent": "listen",
+      "messages": [
+        {"role": "user", "content": "Namatay na si Lola kahapon. Wala akong ma-feel, parang manhid lang ako."},
+        {"role": "assistant", "content": "Condolence sa pagkawala ni Lola. Normal lang yung pakiramdam na manhid, madalas ganyan sa unang araw. Hindi mo kailangang pilitin ang sarili mong umiyak o maging malakas."},
+        {"role": "user", "content": "Parang hindi ko pa matanggap. Kasama ko pa siya nung Linggo."},
+        {"role": "assistant", "content": "Ang bilis ng pangyayari. Gusto mo bang ikwento kung sino si Lola sa'yo?"},
+        {"role": "user", "content": "Siya yung nagpalaki sa akin habang nasa abroad si Mama. Lagi siyang nagluluto ng arroz caldo pag may sakit ako."},
+        {"role": "assistant", "content": "Parang siya yung nagbigay ng alaga at comfort sa'yo. Salamat sa pagkwento. Kung gusto mo pa, nandito ako makinig sa mga alaala mo kay Lola."}
+      ]
+    }
+  ]
+}
