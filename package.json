@@ -1,0 +1,20 @@
+{
+  "name": "kwentuhan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/prepare-dataset.mjs",
+    "dev": "npm run build && wrangler dev",
+    "check": "npm run build && node --check src/worker.js && node --check public/js/app.js && wrangler deploy --dry-run --outdir .wrangler/dry-run",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "test:ui": "npm run build && playwright test",
+    "try": "npm run build && node scripts/try-replies.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "wrangler": "^4.45.0"
+  }
+}
