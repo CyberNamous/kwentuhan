@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="A little space for your everyday stories. Talk with Kwentuhan, your friendly Filipino chat companion, in English, Filipino, or Taglish.">
+  <title>Kwentuhan — A little space for your stories</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#composer">Skip to message</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="About Kwentuhan">
+      <a class="brand" href="/" aria-label="Kwentuhan home"><img src="/logo.svg" width="38" height="38" alt=""><span>kwentuhan<span class="brand-dot">.</span></span></a>
+      <div class="side-main">
+        <div class="side-label">YOUR LITTLE CORNER</div>
+        <div class="side-current"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 1-8 8H5l-3 3v-9a9 9 0 1 1 18-2Z"/></svg><span>A space to talk</span><span class="tiny-dot"></span></div>
+        <div class="side-note"><span class="note-line"></span><p>No perfect words needed.<br>Just start where you are.</p></div>
+      </div>
+      <div class="side-bottom"><div class="connection-art" aria-hidden="true"><span></span><span></span><i>✦</i></div><h2>Kwento mo.<br>At your own pace.</h2><p>The big feelings. The little wins.<br>And everything in between.</p><div class="side-divider"></div><button class="text-button privacy-open" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v5c0 5 8 10 8 10s8-5 8-10V6Z"/><path d="m8 12 3 3 5-6"/></svg>About your privacy</button><span class="side-footer">MADE FOR EVERYDAY CONNECTION</span></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <a class="brand mobile-brand" href="/" aria-label="Kwentuhan home"><img src="/logo.svg" width="31" height="31" alt=""><span>kwentuhan.</span></a>
+        <div class="header-intro"><span class="status-dot"></span><span>Your kausap</span></div>
+        <div class="header-actions"><label class="language-control"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><select id="language" aria-label="Response language"><option value="auto">Auto language</option><option value="en">English</option><option value="fil">Filipino</option><option value="tl-en">Taglish</option></select></label><button id="end-session" class="end-button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v16h5m5-12 4 4-4 4m-6-4h11"/></svg><span>End session</span></button></div>
+      </header>
+      <main id="main">
+        <section id="welcome" class="welcome" aria-labelledby="welcome-title">
+          <div class="welcome-mark"><img src="/logo.svg" width="68" height="68" alt="Kwentuhan conversation and connection symbol"><span class="orbit-spark" aria-hidden="true">✦</span></div>
+          <div class="eyebrow">A LITTLE SPACE, JUST FOR YOU</div>
+          <h1 id="welcome-title">Kumusta, <span>really?</span></h1>
+          <p class="welcome-description">Whatever’s on your mind, there’s room for it here.<br class="desktop-break"> Let’s talk it out—one kwento at a time.</p>
+          <div class="language-badge"><span></span>English, Filipino, or a little bit of both.</div>
+          <div class="starters-heading">NOT SURE WHERE TO START?</div>
+          <div class="starter-grid">
+            <button class="starter" data-prompt="Ang daming nangyari today. Gusto ko lang magkwento." type="button"><span class="starter-icon peach"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></span><span><strong>How was your day?</strong><small>The good, the rough, the ordinary.</small></span><span class="starter-arrow" aria-hidden="true">↗</span></button>
+            <button class="starter" data-prompt="May mabigat sa pakiramdam ko. Pwede bang makinig ka muna?" type="button"><span class="starter-icon pink"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 5c-3-3-7-1-8 1-1-2-5-4-8-1-4 4 2 10 8 14 6-4 12-10 8-14Z"/></svg></span><span><strong>Something feels heavy</strong><small>You don’t have to carry it alone.</small></span><span class="starter-arrow" aria-hidden="true">↗</span></button>
+            <button class="starter" data-prompt="I could use a fresh perspective on something. Can we think it through?" type="button"><span class="starter-icon sage"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6m-5 3h4M8 14a6 6 0 1 1 8 0c-1 1-1 2-1 3H9c0-1 0-2-1-3Z"/></svg></span><span><strong>Let’s figure it out</strong><small>A fresh perspective, without judgment.</small></span><span class="starter-arrow" aria-hidden="true">↗</span></button>
+            <button class="starter" data-prompt="Wala lang, gusto ko lang ng ka-chika. Let's keep it light!" type="button"><span class="starter-icon lavender"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 1-8 8H5l-3 3v-9a9 9 0 1 1 18-2Z"/><path d="M7 11h.01M11 11h.01M15 11h.01"/></svg></span><span><strong>Chika lang tayo</strong><small>No agenda. Just a little company.</small></span><span class="starter-arrow" aria-hidden="true">↗</span></button>
+          </div>
+        </section>
+        <section id="chat" class="chat" aria-label="Conversation" hidden><div class="conversation-start"><span></span>YOUR KWENTO STARTS HERE<span></span></div><div id="messages" role="log" aria-label="Chat messages" aria-live="off"></div><div id="typing" class="typing-row" role="status" aria-label="Kwentuhan is thinking" hidden><img src="/logo.svg" width="30" height="30" alt=""><span class="typing"><i></i><i></i><i></i></span></div><button id="jump-bottom" type="button" class="jump-bottom" hidden>↓ Latest message</button></section>
+      </main>
+      <div class="composer-area">
+        <div class="mode-row"><span>WHAT DO YOU NEED TODAY?</span><div class="mode-options" role="group" aria-label="Conversation approach"><button data-mode="auto" aria-pressed="true" type="button">Go with the flow</button><button data-mode="listen" aria-pressed="false" type="button">Just listen</button><button data-mode="advice" aria-pressed="false" type="button">Think it through</button></div></div>
+        <div id="notice" class="notice" role="status" hidden></div>
+        <div id="error-panel" class="error-panel" role="alert" hidden><span id="error-text"></span><button id="retry" type="button">Try again</button><button id="dismiss-error" class="dismiss" type="button" aria-label="Dismiss error">×</button></div>
+        <form id="composer" class="composer"><label class="sr-only" for="message">Your message</label><textarea id="message" placeholder="Anong kwento mo?" rows="1" maxlength="3000" enterkeyhint="send" required></textarea><div class="composer-tools"><span class="composer-hint" id="char-count" aria-live="off">Your words, your pace.</span><button id="send" class="send-button" type="submit" aria-label="Send message"><svg id="send-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 7-7 7 7M12 5v15"/></svg><svg id="stop-icon" viewBox="0 0 24 24" aria-hidden="true" hidden><rect x="6" y="6" width="12" height="12" rx="2"/></svg></button></div></form>
+        <div class="composer-footer"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Saved only on this browser.</span><span>Kwentuhan is an automated chat, not a substitute for professional support. <button class="text-button privacy-open" type="button">Learn more</button></span></div>
+      </div>
+      <footer class="mobile-footer"><span>Kwento mo. At your own pace.</span><button class="text-button privacy-open" type="button">Privacy</button></footer>
+    </div>
+  </div>
+  <dialog id="end-dialog" aria-labelledby="end-title" aria-describedby="end-description"><div class="dialog-icon"><img src="/logo.svg" width="40" height="40" alt=""></div><h2 id="end-title">Ready to end this kwento?</h2><p id="end-description">This clears the conversation saved on this browser and stops the current response. You can always start fresh.</p><div class="dialog-actions"><button id="cancel-end" class="secondary-button" type="button" autofocus>Keep talking</button><button id="confirm-end" class="primary-button" type="button">End & clear chat</button></div></dialog>
+  <dialog id="privacy-dialog" class="privacy-dialog" aria-labelledby="privacy-title"><h2 id="privacy-title">A little clarity about your space.</h2><p>Kwentuhan is an automated chat companion, not a person, therapist, or emergency service. It replies from a fixed set of topics, so it can miss what you mean.</p><h3>On this device</h3><p>Your conversation is stored in this browser’s LocalStorage, not in an app database. Anyone with access to this browser may see it. Private browsing or browser cleanup may erase it. End session removes Kwentuhan’s saved conversation and resets your preferences.</p><h3>When you send a message</h3><p>Your message and recent conversation are sent to this app’s backend on Cloudflare, which picks a reply from its built-in dataset. No AI model is used and no third-party AI service receives your messages. This app does not store conversation content on its server, but the hosting platform may keep standard request logs. Avoid sharing passwords, financial details, or identifying information.</p><p>Stopping or ending a session cancels the browser request. A reply that already started may not stop immediately. Ending a session cannot undo data already transmitted.</p><h3>When you need a real person</h3><p>If you’re in immediate danger in the Philippines, call <a href="tel:911">911</a>. For crisis support, NCMH lists <a href="tel:1553">1553</a> and <a href="tel:+639178998727">0917-899-8727</a>. Reach out to someone you trust nearby, too.</p><p class="fine-print">Contacts checked 9 November 2026 against <a href="https://ncmh.gov.ph/contact-us/" target="_blank" rel="noopener noreferrer">NCMH</a> and the <a href="https://ehotlines.e.gov.ph/" target="_blank" rel="noopener noreferrer">government hotline directory</a>. Availability can change. Outside the Philippines, contact local emergency services.</p><p class="fine-print">Recent turns are used to follow the conversation; very long chats may not be remembered in full. Up to 100 messages are kept locally.</p><div class="dialog-actions"><button id="close-privacy" class="primary-button" type="button">Got it</button></div></dialog>
+  <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Please enable JavaScript to chat with Kwentuhan.</div></noscript>
+</body>
+</html>
